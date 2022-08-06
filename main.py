@@ -65,7 +65,7 @@ def create_qr():
 # scans the picture which is got from the camera and
 # displays the content which is encoded in the qrcode
 def scan_qr():
-    img_file_buffer = st.camera_input("Take a pic of the QR CODE")
+    img_file_buffer = st.camera_input("Take a pic of the QR CODE", help="You can also scan BARCODE")
     if img_file_buffer:
         bytes_data = img_file_buffer.getvalue()
         image = cv2.imdecode(np.frombuffer(bytes_data, np.int8), 1)
