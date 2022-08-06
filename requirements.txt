@@ -1,6 +1,7 @@
 numpy==1.21.6
 opencv_python==4.5.5.64
 PyQRCode==1.2.1
+pypng==0.20220715.0
 pyzbar==0.1.9
 streamlit==1.9.2
 streamlit_option_menu==0.3.2
